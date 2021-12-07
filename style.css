@@ -1,3 +1,4 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
@@ -9,13 +10,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* header  */
 header{
     background-color: white;
     padding: 10px 20px;
-}
-
-header div{
-    display: inline-block;
 }
 
 #title, #logo{
@@ -24,8 +22,10 @@ header div{
 
 #title{
     font-size: 22px;
+    display: inline-block;
 }
 
+/* main */
 main{
     padding-top: 30px;
     padding-bottom: 10px;
@@ -38,6 +38,7 @@ main{
     padding: 10px 0px 10px 40px;
 }
 
+/* button */
 button{
     padding: 5px 10px;
     border-radius: 5px;
@@ -55,6 +56,7 @@ button{
     border: solid 1px #D0D5D9;
 }
 
+/* task section */
 div p{
     font-weight: 600;
     font-size: 18px;
@@ -66,6 +68,7 @@ div span{
     margin: 10px 0px;
 }
 
+/* done or not */
 .trueorfalse{
     border: solid 1px;
     border-radius: 50%;
@@ -76,16 +79,17 @@ div span{
     margin-right: 5px;
 }
 
-#true{
+.true{
     color: #6DC4AE;
     border-color: #6DC4AE;
 }
 
-#false{
+.false{
     color: #ED5F56;
     border-color: #ED5F56;
 }
 
+/* category tag */
 .category{
     color: white;
     border-radius: 15px;
@@ -93,26 +97,26 @@ div span{
     font-size: 12px;
 }
 
-#editorial{
+.editorial{
     background-color: #45ABEA;
 }
 
-#q1goals{
+.q1goals{
     background-color: #9C72E4;
 }
 
-#recruiting{
+.recruiting{
     background-color: #64C0A9;
 }
 
-#mobile{
+.mobile{
     background-color: #F29E33;
 }
 
-#website{
+.website{
     background-color: #D863A1;
 }
 
-#sales{
+.sales{
     background-color: #B0C926;
 }
