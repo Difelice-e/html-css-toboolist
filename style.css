@@ -9,13 +9,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-header div{
-    display: inline-block;
-}
-
 header{
     background-color: white;
     padding: 10px 20px;
+}
+
+header div{
+    display: inline-block;
 }
 
 #title, #logo{
